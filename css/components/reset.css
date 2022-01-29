@@ -1,0 +1,56 @@
+/* CSS Reset */
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+body{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    scroll-snap-type: y mandatory;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+button,
+input,
+textarea,
+select{
+	font-family: inherit;
+}
+
+img, 
+picture, 
+video, 
+canvas,
+iframe, 
+svg{
+    display: block;
+    max-width: 100%;
+    max-inline-size: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a,
+button{
+    cursor: pointer;
+}

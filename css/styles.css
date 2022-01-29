@@ -1,0 +1,8 @@
+/* Master CSS File */
+
+/* Importing google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;400&family=Maven+Pro&family=Nunito+Sans:wght@700&family=Work+Sans&display=swap');
+
+/* Importing the file where all component CSS rendezvous  */
+@import url(./components/main.css);
+
