@@ -4,14 +4,14 @@
     font-family: 'Work Sans', sans-serif;
     gap: var(--space-lg);
     min-height: 100vh;
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
     background-color: var(--background-day);
     color: var(--primary-font);
     grid-template-columns: 16rem auto;
     grid-template-rows: 6rem auto 6rem;
     grid-template-areas:
-        "top-nav top-nav"
+        "side-nav top-nav"
         "side-nav content"
         "side-nav cta-footer"
 } 
@@ -20,10 +20,10 @@
     grid-area: side-nav;
 }
 
-
 /* Top Navigation Bar  */
 .top-nav{
     grid-area: top-nav;
+    margin-right: var(--space-lg);
 }
 
 .brand-logo{
@@ -56,16 +56,37 @@
     position: sticky;
     top: 0rem;
     justify-content: start;
-    color: var(--secondary-font);
     max-height: 100vh;
-    overflow-y: scroll;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    color: var(--secondary-font);
+    border-radius: 0 var(--space-sm) var(--space-sm) 0;
+}
+
+
+.side-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+.sub-title{
+    color: var(--primary);
+    font-weight: bold;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--space-xs);
+    background-color: var(--green-hover);
 }
 
 .sub-list-items{
     margin-bottom: var(--space-xs);
     display: flex;
-    justify-content: start;
+    justify-content:flex-start;
     align-items: end;
+    padding: var(--space-xs) 0;
+}
+
+.sub-list-items span{
+    margin-right: var(--space-sm);
 }
 
 /* Sidebar Ends  */
@@ -73,12 +94,14 @@
 
 .content{
     grid-area: content;
+    margin-right: var(--space-lg);
 }
 
 .cta-footer{
     grid-area: cta-footer;
     justify-content: space-between;
     align-items: flex-start;
+    margin-right: var(--space-lg);
 }
 
 
@@ -99,8 +122,9 @@
     .top-nav{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-left: var(--space-sm);
         margin-top: var(--space-sm);
     }
     .nav-links{
@@ -112,6 +136,12 @@
     }
     .nav-item{
         margin-left: 0;
+    }
+    .content{
+        margin-left: var(--space-sm);
+    }
+    .cta-footer{
+        margin-left: var(--space-sm);
     }
 }
 
