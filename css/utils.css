@@ -5,6 +5,11 @@
     color: var(--primary-font-night);
 }
 
+.day-theme{
+    background-color: var(--background-day);
+    color: var(--primary-font);
+}
+
 /*************************Padding******************************* */
 
 .pd10{
@@ -114,6 +119,21 @@
     border-color:var(--orange);
 }
 
+.bod-circle{
+    border-radius: 50%;
+}
+
+.bod-sm-round{
+    border-radius: 0.5rem;
+}
+
+.bod-md-round{
+    border-radius: 0.8rem;
+}
+
+.bod-lg-round{
+    border-radius: 1rem;
+}
 /*************************Display, Flex and Grid***********************************/
 
 .block{
@@ -135,6 +155,12 @@
 .flex-vertical{
     display: flex;
     flex-direction: column;
+}
+
+.children-centered{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .grid{
@@ -172,4 +198,9 @@
 
 .h-full{
     height: 100vh;
+}
+
+/*************************Shadows***********************************/
+.shadow-all{
+    box-shadow: 0 10px 35px rgb(0 0 0 / 10%)
 }

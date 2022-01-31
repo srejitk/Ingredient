@@ -8,10 +8,14 @@
 
     /* Backgrounds  */
     --background-night: hsl(245, 35%, 7%);
+    --background-day: hsl(0, 0%, 100%);
+    --background-day-pastel: hsl(240, 6%, 97%);
+    --background-night-pastel: hsl(240, 25%, 12%);
 
     /* Font colors  */
     --primary-font-night: hsl(198, 45%, 90%);
-    --secondary-font-night: hsl(147, 5%, 47%);
+    --secondary-font: hsl(208, 7%, 46%);
+    --primary-font: hsl(0, 0%, 0%);
 
     /* Utility colors  */
     --blue: #007bff;

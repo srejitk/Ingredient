@@ -21,6 +21,7 @@ body{
     scroll-snap-type: y mandatory;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
+    min-height: 100vh;
 }
 
 button,

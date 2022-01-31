@@ -3,3 +3,71 @@ font-family: 'Maven Pro', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Work Sans', sans-serif; */
 
+
+/*Text color*/
+.txt-primary{
+    color: var(--primary-font-night)
+}
+
+.txt-secondary{
+    color: var(--secondary-font-night);
+}
+
+.txt-error{
+    color: var(--cherry);
+}
+
+.txt-info{
+    color: var(--blue);
+}
+
+.txt-warn{
+    color: var(--orange);
+}
+
+.txt-success{
+    color: var(--green);
+}
+
+/*text sizes*/
+.txt-sm{
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+.txt-md{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.txt-lg{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.txt-xlg{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.txt-xxlg{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+/* Text weight */
+.txt-light{
+    font-weight: 300;
+}
+
+.txt-regular{
+    font-weight: 400;
+}
+
+.txt-semibold{
+    font-weight: 600;
+}
+
+.txt-bold{
+    font-weight: 800;
+}

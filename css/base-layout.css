@@ -1,0 +1,117 @@
+@import url(../css/main.css);
+
+.holy-grail-layout{
+    font-family: 'Work Sans', sans-serif;
+    gap: 2rem;
+    min-height: 100vh;
+    max-width: 80%;
+    margin: auto;
+    background-color: var(--background-day);
+    color: var(--primary-font);
+    grid-template-columns: 16rem auto;
+    grid-template-rows: 6rem auto 6rem;
+    grid-template-areas:
+        "top-nav top-nav"
+        "side-nav content"
+        "side-nav cta-footer"
+} 
+
+.side-nav{
+    grid-area: side-nav;
+}
+
+
+/* Top Navigation Bar  */
+.top-nav{
+    grid-area: top-nav;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.brand-img{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.nav-links{
+    color: var(--primary-font);
+    text-align: end;
+}
+
+.nav-item{
+    margin-left: 2rem;
+}
+/* Top-Navigation ends  */
+
+
+/* Sidebar Starts  */
+.side-nav{
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0rem;
+    justify-content: start;
+    color: var(--secondary-font);
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.sub-list-items{
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+/* Sidebar Ends  */
+
+
+.content{
+    grid-area: content;
+}
+
+.cta-footer{
+    grid-area: cta-footer;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+@media  only screen and  (max-width: 780px) {
+    .holy-grail-layout{
+        display: grid;
+        max-width: 100%;
+        background-color: var(--background-day);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "top-nav top-nav"
+            "content content"
+            "cta-footer cta-footer"
+    }
+    .side-nav{
+        display: none;
+    }
+    .top-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .nav-links{
+        text-align: center;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav-item{
+        margin-left: 0;
+    }
+}
+
