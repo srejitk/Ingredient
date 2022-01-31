@@ -16,6 +16,7 @@
     --primary-font-night: hsl(198, 45%, 90%);
     --secondary-font: hsl(208, 7%, 46%);
     --primary-font: hsl(0, 0%, 0%);
+    --border-gray: hsl(210, 19%, 73%);
 
     /* Utility colors  */
     --blue: #007bff;
