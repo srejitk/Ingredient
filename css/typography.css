@@ -31,27 +31,27 @@ font-family: 'Work Sans', sans-serif; */
 
 /*text sizes*/
 .txt-sm{
-    font-size: 0.5rem;
+    font-size: var(--fs-sm);
     line-height: 1rem;
 }
 
 .txt-md{
-    font-size: 1rem;
+    font-size: var(--fs-md);
     line-height: 1.5rem;
 }
 
 .txt-lg{
-    font-size: 1.5rem;
+    font-size: var(--fs-lg);
     line-height: 2rem;
 }
 
 .txt-xlg{
-    font-size: 2rem;
+    font-size: var(--fs-xlg);
     line-height: 2.5rem;
 }
 
 .txt-xxlg{
-    font-size: 3rem;
+    font-size: var(--fs-xxlg);
     line-height: 4rem;
 }
 
