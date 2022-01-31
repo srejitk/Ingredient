@@ -94,7 +94,8 @@
 
 .content{
     grid-area: content;
-    margin-right: var(--space-lg);
+    max-width: 85%;
+    margin: 0 var(--space-lg) 0 var(--space-xs);
 }
 
 .cta-footer{
@@ -102,6 +103,12 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-right: var(--space-lg);
+}
+
+.component-container{
+    border: solid 2px var(--gray-opaque);
+    border-radius: var(--space-xs);
+    padding: var(--space-md) var(--space-lg);
 }
 
 
