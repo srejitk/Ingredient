@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+			integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+	/>
+    <link rel="stylesheet" href="../../css/base-layout.css">
+    <link rel="stylesheet" href="../../css/components/avatar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Avatar</title>
+</head>
+<body class="holy-grail-layout grid">
+
+    <!-- Top Nav Bar  -->
+    <header class="top-nav children-centered">
+        <section class="brand-logo">
+            <div class="brand-img">
+                <img src="../../assets/ingredient_logo.svg" alt="ingredient-logo">
+            </div>
+            <div class="txt-lg">Ingredient.</div>
+        </section>
+        <section class="nav-links pd10">
+            <a href="../../index.html" class="nav-item">Home</a>
+            <a href="../intro.html" class="nav-item">Docs</a>
+            <a href="https://github.com/coldpigli/Ingredient" class="nav-item">Contribute</a>
+        </section>
+    </header>
+
+    <!-- SideBar  -->
+    <aside class="side-nav flex-vertical shadow-all">
+         <h1 class="txt-lg gap-u20 gap-d20">v1.0</h1>
+        </section>
+        <section class="side-nav-group gap-d20">
+            <h4 class="sub-title gap-d20">INTRODUCTION</h4>
+            <div class="sub-list">
+                <ul>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">flag</span>
+                        <a href="../intro.html">Get Started</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">palette</span>
+                        <a href="../color-page.html">Colors</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">format_size</span>
+                        <a href="../typography-page.html">Typography</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">fast_forward</span>
+                        <a href="../way-forward-page.html">Way Forward</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="side-nav-group gap-d20">
+            <h4 class="sub-title gap-d20">COMPONENTS</h4>
+            <div class="sub-list">
+                <ul>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">notifications</span>
+                        <a href="#">Alert</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24"> 
+                            account_circle
+                        </span>
+                        <a href="#">Avatar</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">badge</span>
+                        <a href="#">Badge</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">
+                            smart_button
+                        </span>
+                        <a href="#">Button</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">padding</span>
+                        <a href="#">Card</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">photo_size_select_actual</span>
+                        <a href="#">Image</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">
+                            keyboard
+                        </span>
+                        <a href="#">Input</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">text_format</span>
+                        <a href="#">Text utilities</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">list_alt</span>
+                        <a href="#">Lists</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">
+                            pin_drop
+                        </span>
+                        <a href="#">Navigation</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">redeem</span>
+                        <a href="#">Modal</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">
+                            star_half
+                        </span>
+                        <a href="#">Rating</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">
+                            announcement
+                        </span>
+                        <a href="#">Snackbar</a>
+                    </li>
+                    <li class="sub-list-items">
+                        <span class="material-icons md-24">
+                            dashboard
+                        </span>
+                        <a href="#">Layout</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+        <h1 class="txt-xlg txt-bold gap-d20">
+            Avatars
+        </h1>
+        <p class="gap-d10">
+            Avatars are images that users can set as their profile picture. On Ingredients, they're always going to be rounded or rounded-squares. They can be custom photos, uploaded by users, or generated as identicons as a placeholder.
+        </p>
+        <p class="gap-d20">
+            The Avatar component is used to represent users. And should only be used for users.
+        </p>
+        <h2 class="txt-lg txt-bold gap-d20">
+            Types of Alerts in Ingredients
+        </h2>
+        <p class="gap-d10">
+            We at Ingredients know that you love choices. Sweat not! We've got you covered. Avatars in Ingredients come in 3 main variants. They are:
+        </p>
+        <ul class="gap-l30 gap-d20">
+            <li>
+                <span class="txt-bold">Default Rounded Avatars</span>  
+            </li>
+            <li>
+                <span class="txt-bold">Avatars with different dimensions</span>  
+            </li>
+            <li>
+                <span class="txt-bold">Squircle Avatar</span>  
+            </li>
+        </ul>
+        <p class="gap-d20">
+            Let's look at how these variations will look at your screen.
+        </p>
+        <h2 class="gap-d20">
+            Default Rounded Avatar
+        </h2>
+        <p class="gap-d20">
+            A rouned avatar with dimensions "to be added" is the default avatar in Ingredients. It can be tapped by using the "avatar" class on your "img" tags.
+        </p>
+        <section class="component-container shadow-all gap-d30 children-centered flex wrap">
+            <img class="avatar" src="../../assets/avatar-1.jpg" alt="avatar-image">
+            <img class="avatar" src="../../assets/avatar-2.jpg" alt="avatar-image">
+            <img class="avatar" src="../../assets/avatar-3.jpg" alt="avatar-image">
+            <img class="avatar" src="../../assets/avatar-4.jpg" alt="avatar-image">
+        </section>
+        <!-- Highlight JS Code snippet for simple avatar  -->
+        <pre class="gap-d20">
+            <code>
+                <!-- Use class-name "avatar" on your images to get a default avatar -->
+                <img class="avatar" src="path-to-your-image" alt="alernative-text">
+            </code>
+        </pre>
+        <h2 class="gap-d20">
+            Avatars with different dimensions
+        </h2>
+        <p class="gap-d20">
+           We at Ingredients know that you will require avatars of various shapes and sizes to level-up your UI game. For this very reason avatars in Ingredients come in different sizes. Have a sneak peek below 
+        </p>
+        <section class="component-container shadow-all gap-d30 children-centered flex wrap">
+            <img class="avatar-xxs" src="../../assets/avatar-3.jpg" alt="alernative-text">
+            <img class="avatar-xs" src="../../assets/avatar-3.jpg" alt="alernative-text">
+            <img class="avatar-sm" src="../../assets/avatar-3.jpg" alt="alernative-text">
+            <img class="avatar" src="../../assets/avatar-3.jpg" alt="alernative-text">
+            <img class="avatar-lg" src="../../assets/avatar-3.jpg" alt="alernative-text">
+        </section>
+        <!-- HighlightJS Code snippet for solid alert  -->
+        <pre>
+            <code>
+                <!-- Extra extra Small  -->
+                <img class="avatar-xxs" src="image-path" alt="alernative-text">
+                <!-- Extra Small  -->
+                <img class="avatar-xs" src="image-path" alt="alernative-text">
+                <!-- Small  -->
+                <img class="avatar-sm" src="image-path" alt="alernative-text">
+                <!-- Default  -->
+                <img class="avatar" src="image-path" alt="alernative-text">
+                <!-- Large  -->
+                <img class="avatar-lg" src="image-path" alt="alernative-text">
+            </code>
+        </pre>
+        <h2 class="gap-d20">
+            Squircle Avatars
+        </h2>
+        <p class="gap-d20">
+           We at Ingredients know that you will require avatars of various shapes and sizes to level-up your UI game. For this very reason avatars in Ingredients come in different sizes. Have a sneak peek below.
+        </p>
+        <section class="component-container shadow-all gap-d30 children-centered flex wrap">
+            <img class="avatar-xxs avatar-square" src="../../assets/avatar-4.jpg" alt="alernative-text">
+            <img class="avatar-xs avatar-square" src="../../assets/avatar-4.jpg" alt="alernative-text">
+            <img class="avatar-sm avatar-square" src="../../assets/avatar-4.jpg" alt="alernative-text">
+            <img class="avatar avatar-square" src="../../assets/avatar-4.jpg" alt="alernative-text">
+            <img class="avatar-lg avatar-square" src="../../assets/avatar-4.jpg" alt="alernative-text">
+        </section>
+        <!-- HighlightJS Code snippet for solid alert  -->
+        <pre>
+            <code>
+                <!--Just add the class "avatar-square" to render a square avatar-->
+                <img class="avatar avatar-square" src="path to your image" alt="alernative-text">
+            </code>
+        </pre>
+        
+    </main>
+
+    <!-- CTA Footer  -->
+    <footer class="cta-footer flex">
+        <div class="footer-items">
+            <span class="material-icons md-24">
+                <span class="material-icons-outlined">
+                    arrow_back_ios
+                </span>
+            </span>
+            <a href="../index.html">Home</a>
+        </div>
+        <div class="footer-items">
+            <a href="./color-page.html">Colors</a>
+            <span class="material-icons md-24">
+                <span class="material-icons-outlined">
+                    arrow_forward_ios
+                </span>
+            </span>
+        </div>
+    </footer>
+    <script
+			src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+			integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+	></script>
+	<script>
+		hljs.highlightAll();
+    </script>
+	<script src="../../js/codeblocks.js"></script>
+</body>
+</html>
