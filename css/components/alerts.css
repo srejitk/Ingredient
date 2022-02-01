@@ -1,0 +1,65 @@
+ul{
+    list-style: square;
+}
+
+.alert{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: var(--space-xs) var(--space-sm);
+    line-height: 1;
+    border: 1px solid gray;
+    border-radius: var(--space-xs);
+}
+
+.alert-icon{
+    margin-right: var(--space-md);
+}
+
+.alert-info{
+    background-color: var(--pblue-light-opaque);
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.alert-success{
+    background-color: var(--green-hover);
+    border-color: var(--green);
+    color: var(--green);
+}
+
+.alert-error{
+    background-color: var(--cherry-light-opaque);
+    border-color: var(--cherry);
+    color: var(--cherry);
+}
+
+.alert-warning{
+    background-color: var(--orange-light-opaque);
+    border-color: var(--orange);
+    color: var(--orange);
+}
+
+.alert-info-solid{
+    background-color: var(--blue);
+    border-color: var(--blue);
+    color: var(--background-day);
+}
+
+.alert-success-solid{
+    background-color: var(--green);
+    border-color: var(--green);
+    color: var(--background-day);
+}
+
+.alert-error-solid{
+    background-color: var(--cherry);
+    border-color: var(--cherry);
+    color: var(--background-day);
+}
+
+.alert-warning-solid{
+    background-color: var(--orange);
+    border-color: var(--orange);
+    color: var(--background-day);
+}
