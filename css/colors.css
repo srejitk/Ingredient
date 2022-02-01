@@ -1,7 +1,7 @@
 :root{
 	/* Brand Colors */
     --primary-light: hsl(152, 63%, 40%);
-    --primary: hsl(161, 64%, 30%);
+    --primary: hsl(161, 63%, 30%);
     --secondary: hsl(243, 30%, 26%);
     --secondary-dark: hsl(242, 30%, 20%);
     --accent: hsl(268, 70%, 51%);
@@ -23,7 +23,7 @@
     --blue-light: #007bff20;
     --blue-hover: #007bff30;
     --blue-light-opaque: #eff7ff;
-    --blue-mid: #007bff99;
+    --blue: #007bff;
     --pblue: #4c75f2;
     --pblue-light: #4c75f210;
     --pblue-hover: #4c75f230;
