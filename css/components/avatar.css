@@ -1,0 +1,30 @@
+.avatar{
+    width: 8rem;
+    height: 8rem;
+    border-radius: var(--radius-round);
+    vertical-align: middle;
+}
+
+.avatar-lg{
+    width: 10rem;
+    height: 10rem;
+}
+    
+.avatar-sm{
+    width: 6rem;
+    height: 6rem;
+}
+
+.avatar-xs{
+    width: 4rem;
+    height: 4rem;
+}
+
+.avatar-xxs{
+    width: 2rem;
+    height: 2rem;
+}
+
+.avatar-square{
+    border-radius: var(--space-xs);
+}
