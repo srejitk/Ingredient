@@ -2,6 +2,7 @@
 :root{
   
     /* Spacings */
+    --space-xxs: 0.2rem;
     --space-xs: 0.5rem;
     --space-sm: 1rem;
     --space-md: 1.5rem;
@@ -32,6 +33,11 @@
     --fs-xlg: 2rem;
     --fs-xxlg: 3.5rem;
 
+    /* Icon Sizes */
+    --icon: 3rem;
+    --icon-sm: 2rem;
+    --icon-xs: 1.5rem;
+    --fs-badge: 0.7rem;
 }
 
 /* ************************Themes********************************  */
