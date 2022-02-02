@@ -1,0 +1,54 @@
+.badge{
+    display: flex;  
+    position: relative;
+    cursor: pointer;
+    font-size: var(--fs-badge);
+}
+
+.badge-icon{
+    width: var(--icon-sm);
+    height: var(--icon-sm);
+}
+
+.badge-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: var(--cherry);
+    color: var(--background-day);
+    min-width: var(--icon-xs);
+    min-height: var(--icon-xs);
+    border: 2px solid white;
+    border-radius: var(--radius-round);
+}
+
+.top-right{
+    top: -10px;
+    right: -10px;
+}
+
+.bottom-right{
+    bottom: 0;
+    right: 0.5rem;
+}
+
+.online{
+    background-color: var(--green);
+}
+
+.offline{
+    background-color: var(--gray);
+}
+
+.busy{
+    background-color: var(--cherry);
+}
+
+.away{
+    background-color: var(--orange);
+}
+
+
+
+
