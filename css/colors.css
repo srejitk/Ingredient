@@ -2,7 +2,9 @@
 	/* Brand Colors */
     --primary-light: hsl(152, 63%, 40%);
     --primary: hsl(161, 63%, 30%);
+    --primary-opaque: hsla(161, 63%, 30%, 0.192);
     --secondary: hsl(243, 30%, 26%);
+    --secondary-opaque: hsla(243, 30%, 26%, 0.301);
     --secondary-dark: hsl(242, 30%, 20%);
     --accent: hsl(268, 70%, 51%);
 
@@ -50,6 +52,7 @@
     --yellow-mid: #ffc10799;
     --yellow-light-opaque: #fff7e0;
     --green: #28a745;
+    --green-lighter: hsl(134, 81%, 41%);
     --green-light: #28a74520;
     --green-hover: #28a74530;
     --green-mid: #28a74599;
