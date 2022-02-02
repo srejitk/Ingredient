@@ -5,32 +5,24 @@
     vertical-align: middle;
 }
 
+.avatar-lg{
+    width: 10rem;
+    height: 10rem;
+}
+    
 .avatar-sm{
     width: 6rem;
     height: 6rem;
-    border-radius: var(--radius-round);
-    vertical-align: middle;
 }
 
 .avatar-xs{
     width: 4rem;
     height: 4rem;
-    border-radius: var(--radius-round);
-    vertical-align: middle;
 }
 
 .avatar-xxs{
     width: 2rem;
     height: 2rem;
-    border-radius: var(--radius-round);
-    vertical-align: middle;
-}
-
-.avatar-lg{
-    width: 10rem;
-    height: 10rem;
-    border-radius: var(--radius-round);
-    vertical-align: middle;
 }
 
 .avatar-square{
