@@ -1,0 +1,29 @@
+.img-sm{
+    width: 200px;
+    height: 200px;
+}
+
+.img-md{
+    width: 250px;
+    height: 250px;
+}
+
+.img-lg{
+    width: 300px;
+    height: 300px;
+}
+
+.resp-img{
+    max-inline-size: 100%;
+    width: 100%;
+    block-size: auto;
+}
+
+.round-img{
+    border-radius: var(--radius-round);
+    object-fit: cover;
+}
+
+.sq-img{
+    object-fit: fill;
+}
