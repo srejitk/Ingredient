@@ -9,7 +9,6 @@
 
 .input-box{
     padding: var(--fs-label) var(--space-xs);
-    outline: none;
     border-radius: var(--radius-sm);
     border: 1px solid var(--secondary-font);
 }
@@ -57,7 +56,6 @@
 }
 
 .text-box{
-    outline: none;
     resize: none;
     padding: var(--space-sm);
     border-radius: var(--space-xs);
