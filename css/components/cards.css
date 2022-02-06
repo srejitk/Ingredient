@@ -39,17 +39,6 @@
     color: var(--cherry);
 }
 
-.special-badge{
-    background-color: var(--cherry);
-    color: white;
-    font-size: var(--fs-label);
-    display: inline-block;
-    border-radius: 0 var(--space-xs) var(--space-xs) 0;
-    padding: 0 var(--space-xs);
-    position: absolute;
-    top: var(--space-md);
-}
-
 .card-description>p{
     color: var(--secondary-font);
     font-size: var(--fs-label); 
