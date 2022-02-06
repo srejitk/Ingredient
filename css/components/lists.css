@@ -1,0 +1,19 @@
+.normal-list{
+    list-style-type: none;
+}
+
+.stacked-list{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.normal-list-item{
+    border: 1px solid var(--border-gray);
+    padding: var(--space-xs) var(--space-md);
+    border-radius: var(--radius-sm);
+}
+
+.numbered-list{
+    list-style-type: decimal;
+}
