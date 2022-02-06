@@ -1,0 +1,77 @@
+.card{
+    display: flex;
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    color: var(--background-night-pastel);
+    gap: var(--space-sm);
+    position: relative;
+}
+
+.vertical-card{
+    flex-direction: column;
+    max-width: 18rem;
+}
+
+.horizontal-card{
+    max-width: 40rem;
+}
+
+/* .horizontal-card>.card-image{
+    max-width: 200px;
+} */
+
+.card-image{
+    background-color: var(--background-night-pastel);
+    border-radius: var(--radius-md);
+}
+
+.overlay-container{
+    position: relative;
+}
+
+.favourite,
+.card-dismiss{
+    color: var(--secondary-font);
+    position: absolute;
+    top: var(--space-md);
+    right: var(--space-md);
+    cursor: pointer;
+}
+
+.fav-selected{
+    color: var(--cherry);
+}
+
+.card-description>p{
+    color: var(--secondary-font);
+    font-size: var(--fs-label); 
+}
+
+.text-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: var(--space-xs);
+    right:0;
+    color: var(--background-day);
+    background-color: var(--secondary-opaque);
+}
+
+.card-price-rating,
+.cards-cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-rating{
+    font-size: var(--fs-label);
+    padding: 0 var(--space-xs);
+    color: var(--green);
+    background-color: var(--green-hover);
+    border: 1px solid var(--green);
+    border-radius: var(--space-xs);
+    display: inline-block;
+}
+
+
