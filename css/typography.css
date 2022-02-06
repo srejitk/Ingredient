@@ -35,6 +35,11 @@ font-family: 'Work Sans', sans-serif; */
     line-height: 1rem;
 }
 
+.txt-label{
+    font-size: var(--fs-label);
+    line-height: 1rem;
+}
+
 .txt-md{
     font-size: var(--fs-md);
     line-height: 1.5rem;
@@ -70,4 +75,22 @@ font-family: 'Work Sans', sans-serif; */
 
 .txt-bold{
     font-weight: 800;
+}
+
+.txt-gray{
+    color: var(--gray);
+}
+
+/* Text alignments  */
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-right{
+    text-align: right;
 }

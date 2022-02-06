@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+			integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+	/>
     <link rel="stylesheet" href="../css/base-layout.css">
-    <link rel="stylesheet" href="../css/guide/typography-page.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <title>TYPOGRAPHY</title>
+    <title>Typography</title>
 </head>
 <body class="holy-grail-layout grid">
+
+    <!-- Top Nav Bar  -->
     <header class="top-nav children-centered">
         <section class="brand-logo">
             <div class="brand-img">
@@ -20,10 +29,12 @@
         </section>
         <section class="nav-links pd10">
             <a href="../index.html" class="nav-item">Home</a>
-            <a href="#" class="nav-item">Docs</a>
-            <a href="#" class="nav-item">Contribute</a>
+            <a href="../docs/intro.html" class="nav-item">Docs</a>
+            <a href="https://github.com/coldpigli/Ingredient" class="nav-item">Contribute</a>
         </section>
     </header>
+
+    <!-- SideBar  -->
     <aside class="side-nav flex-vertical shadow-all">
          <h1 class="txt-lg gap-u20 gap-d20">v1.0</h1>
         </section>
@@ -128,22 +139,157 @@
             </div>
         </section>
     </aside>
+
+    <!-- Main Content -->
     <main class="content">
         <h1 class="txt-xlg txt-bold gap-d20">
-            Typography in Ingredient
+            Typography
         </h1>
-        <p class="gap-d20">
-            Ingredient is an open source styling framework, which helps Developers to use best styles and components, by using pre-defined classnames. Ingredient helps you to quickly build your Dream Project, by focusing much on Functionality, because we take care of your Designs
+        <p class="gap-d10">
+            Type utilities are designed to work in combination with line-height utilities so as to result in more sensible numbers wherever possible. These also exist as variables that you can use in components or custom CSS.
         </p>
-        <h2 class="txt-lg txt-bold gap-d20">
-            Installation Guide
+        <!-- <p class="gap-d20">
+        </p> -->
+        <!-- <h2 class="txt-lg txt-bold gap-d20">
+            Types of Images.
+        </h2>
+        <p class="gap-d10">
+            We at Ingredients know that you love choices. Sweat not! We've got you covered. Images in Ingredients come in 3 main variants. They are:
+        </p> -->
+        <!-- <ul class="gap-l30 gap-d20">
+            <li>
+                <span class="txt-bold">Responsive Images</span>  
+            </li>
+            <li>
+                <span class="txt-bold">Square Images</span>  
+            </li>
+            <li>
+                <span class="txt-bold">Round Images</span>  
+            </li>
+        </ul> -->
+        <p class="gap-d20">
+            Let's look at how these variations will look at your screen.
+        </p>
+        <h2 class="gap-d20">
+            Font Families
         </h2>
         <p class="gap-d20">
-            In order to introduce Ingredient to your project, Copy the Link given below and paste it in the <head> tag of your html, above all other style sheets.
-
-            This page is to be updated!!!!
+           The fonts used in Ingredients are all free Google Fonts:
         </p>
+        <ul class="gap-d20">
+            <li>
+                Martel
+            </li>
+            <li>
+                Maven Pro
+            </li>
+            <li>
+                Nunito Sans
+            </li>
+            <li>
+                Work Sans
+            </li>
+        </ul>
+
+        <!-- Highlight JS Code snippet for simple avatar  -->
+        <pre class="gap-d20">
+            <code>
+                font-family: 'Martel', serif;
+                font-family: 'Maven Pro', sans-serif;
+                font-family: 'Nunito Sans', sans-serif;
+                font-family: 'Work Sans', sans-serif;
+            </code>
+        </pre>
+        <h2 class="gap-d20">
+           Text sizes in Ingredients
+        </h2>
+        <p class="gap-d20">
+            We have different classes for different sizes of headings.
+        </p>
+        <section class="component-container shadow-all gap-d30 children-centered flex-vertical wrap">
+            <h1 class="txt-xxlg gap-d20">xxlg Welcome to Ingredients</h1>
+            <h2 class="txt-xlg gap-d20">xlg Welcome to Ingredients</h2>
+            <h3 class="txt-lg gap-d20">lg Welcome to Ingredients</h3>
+            <h4 class="txt-md gap-d20">md Welcome to Ingredients</h4>
+            <h5 class="txt-sm gap-d20">sm Welcome to Ingredients</h5>
+        </section>
+        <!-- HighlightJS Code snippet for solid alert  -->
+        <pre>
+            <code>
+            <h1 class="txt-xxlg gap-d20">xxlg Welcome to Ingredients</h1>
+            <h2 class="txt-xlg gap-d20">xlg Welcome to Ingredients</h2>
+            <h3 class="txt-lg gap-d20">lg Welcome to Ingredients</h3>
+            <h4 class="txt-md gap-d20">md Welcome to Ingredients</h4>
+            <h5 class="txt-sm gap-d20">sm Welcome to Ingredients</h5>
+            </code>
+        </pre>  
+        
+        <h2 class="gap-d20">
+            Small Text
+         </h2>
+         <p class="gap-d20">
+             Small texts are used in badges and/or places where some real estate is not available.
+         </p>
+         <section class="component-container shadow-all gap-d30 children-centered flex wrap">
+             <p class="txt-sm gap-d30">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto quo iure nihil laboriosam rerum voluptatem nemo veniam ipsa quia soluta. Architecto animi, et eaque ipsa soluta vero quidem? Iure, esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores suscipit ipsa velit ipsum aut atque nulla nisi inventore, laudantium iste vero alias, quibusdam nesciunt cum facere esse dolorem tenetur reprehenderit laborum quas. Quibusdam maxime rem commodi accusamus molestias harum ipsa veritatis omnis dignissimos, mollitia explicabo pariatur facere iste dolorem? Ratione officiis amet ab. Atque, veritatis? Laborum eaque quas tempore id nisi, sapiente aliquid repellendus minima sint magni illo, quasi laudantium consectetur modi sit voluptatum natus temporibus earum excepturi recusandae aspernatur. Cum reiciendis pariatur maxime sequi incidunt, exercitationem velit magni eligendi aut explicabo dolore quas aliquam unde minima, veniam odio, cumque iusto ea iste nam similique animi labore! Officiis sint consectetur recusandae quisquam voluptates laudantium quae tenetur cumque deleniti est rem enim nisi nostrum natus quam, consequatur magnam repudiandae ipsa itaque modi perspiciatis voluptas quaerat quibusdam inventore? Aut soluta quod, ullam dolor dolores perferendis in autem, officia consequuntur aspernatur eos, doloribus minima magnam? Repudiandae est, illum, hic reiciendis quod obcaecati cumque ab laborum recusandae pariatur minus nostrum nemo minima eos eveniet nihil eaque molestias quas dolorem nisi? Accusamus laudantium aspernatur ea similique, aliquid beatae maxime quas? A nisi doloremque accusamus eligendi aliquam alias atque quidem voluptatum ut. Dolorum architecto assumenda corporis?
+             </p>
+
+             <p class="txt-label">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto quo iure nihil laboriosam rerum voluptatem nemo veniam ipsa quia soluta. Architecto animi, et eaque ipsa soluta vero quidem? Iure, esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores suscipit ipsa velit ipsum aut atque nulla nisi inventore, laudantium iste vero alias, quibusdam nesciunt cum facere esse dolorem tenetur reprehenderit laborum quas. Quibusdam maxime rem commodi accusamus molestias harum ipsa veritatis omnis dignissimos, mollitia explicabo pariatur facere iste dolorem? Ratione officiis amet ab. Atque, veritatis? Laborum eaque quas tempore id nisi, sapiente aliquid repellendus minima sint magni illo, quasi laudantium consectetur modi sit voluptatum natus temporibus earum excepturi recusandae aspernatur. Cum reiciendis pariatur maxime sequi incidunt, exercitationem velit magni eligendi aut explicabo dolore quas aliquam unde minima, veniam odio, cumque iusto ea iste nam similique animi labore! Officiis sint consectetur recusandae quisquam voluptates laudantium quae tenetur cumque deleniti est rem enim nisi nostrum natus quam, consequatur magnam repudiandae ipsa itaque modi perspiciatis voluptas quaerat quibusdam inventore? Aut soluta quod, ullam dolor dolores perferendis in autem, officia consequuntur aspernatur eos, doloribus minima magnam? Repudiandae est, illum, hic reiciendis quod obcaecati cumque ab laborum recusandae pariatur minus nostrum nemo minima eos eveniet nihil eaque molestias quas dolorem nisi? Accusamus laudantium aspernatur ea similique, aliquid beatae maxime quas? A nisi doloremque accusamus eligendi aliquam alias atque quidem voluptatum ut. Dolorum architecto assumenda corporis?
+             </p>
+         </section>
+         <!-- HighlightJS Code snippet for solid alert  -->
+         <pre>
+             <code>
+                <p class="txt-sm">Your content</p>
+                <p class="txt-label">Your content</p>
+             </code>
+         </pre>  
+
+         <h2 class="gap-d20">
+            Gray Text
+         </h2>
+         <p class="gap-d20">
+             Text can be grayed out using a simple class text-gray
+         </p>
+         <section class="component-container shadow-all gap-d30 children-centered flex wrap">
+             <p class="txt-gray">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestiae et suscipit quos itaque, aliquam, beatae, vero officia illo aspernatur qui? Soluta, error, labore optio quae hic tempore eius velit beatae ut ea nemo in ipsum similique accusantium non quam! Ullam modi deleniti odio beatae impedit, unde esse ea minima ex ratione voluptas ipsum, sapiente, saepe eius. Aspernatur, voluptate unde alias similique accusantium reiciendis corrupti, inventore a omnis, esse quis accusamus dicta. Tempore, blanditiis. Veritatis repudiandae reprehenderit vero. Vel inventore est maiores doloremque neque ducimus dolorem, ea veniam suscipit. Recusandae nulla molestias nisi voluptatem, quae animi doloribus praesentium aliquam quis placeat reiciendis ratione fugiat fugit cum dolor tenetur facere, asperiores ipsa assumenda aspernatur commodi cupiditate minus, culpa nam. Modi alias similique dolores sequi dolore dicta quod molestias consequatur delectus quibusdam, eaque ad veritatis est perferendis et praesentium incidunt ab fugiat voluptatibus velit harum laboriosam ea quisquam quam! Ipsa omnis debitis amet est rem! Esse atque ut, voluptas soluta eum, quam in odio itaque delectus, distinctio eveniet officia voluptatibus aliquid dolores tenetur obcaecati harum cum quis? Tempora similique neque quia vero, in sapiente consequatur, sunt deleniti non iure recusandae, consequuntur vitae laboriosam odit. Recusandae laborum obcaecati deserunt iusto nisi, esse doloremque.
+             </p>
+         </section>
+         <!-- HighlightJS Code snippet for solid alert  -->
+         <pre>
+            <code>
+                <p class="txt-gray">This is a gray text</p>
+            </code>
+        </pre>
+
+        <h2 class="gap-d20">
+            Text Alignment
+         </h2>
+         <p class="gap-d20">
+            Text aligments are done in the following way.
+         </p>
+         <section class="component-container shadow-all gap-d30 children-centered flex wrap">
+           <h2>Alignment Center</h2> 
+           <p class="txt-center txt-gray gap-d30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatem architecto itaque! Possimus quasi, magni recusandae quidem odio neque perspiciatis sed qui maiores asperiores impedit, ipsa ab sequi, reprehenderit commodi minus a aliquam quae ea! Doloribus magnam ipsum quia odit iste sunt minus quod officia voluptate eius placeat aliquam, assumenda sit. Similique voluptates quasi consequatur error ipsum ea, totam debitis obcaecati inventore perferendis. Sed, amet! Consequatur asperiores rem itaque alias incidunt laboriosam, nam sunt officiis magni ipsum quasi adipisci iure consectetur ducimus dolore error quod temporibus maiores iusto velit. Rem vel perspiciatis voluptatum qui dolore at eaque ab veniam sunt.</p>
+           <h2>Alignment Left</h2>
+           <p class="txt-left txt-gray gap-d30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatem architecto itaque! Possimus quasi, magni recusandae quidem odio neque perspiciatis sed qui maiores asperiores impedit, ipsa ab sequi, reprehenderit commodi minus a aliquam quae ea! Doloribus magnam ipsum quia odit iste sunt minus quod officia voluptate eius placeat aliquam, assumenda sit. Similique voluptates quasi consequatur error ipsum ea, totam debitis obcaecati inventore perferendis. Sed, amet! Consequatur asperiores rem itaque alias incidunt laboriosam, nam sunt officiis magni ipsum quasi adipisci iure consectetur ducimus dolore error quod temporibus maiores iusto velit. Rem vel perspiciatis voluptatum qui dolore at eaque ab veniam sunt.</p>
+           <h2>Alignment Right</h2>
+           <p class="txt-right txt-gray gap-d30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatem architecto itaque! Possimus quasi, magni recusandae quidem odio neque perspiciatis sed qui maiores asperiores impedit, ipsa ab sequi, reprehenderit commodi minus a aliquam quae ea! Doloribus magnam ipsum quia odit iste sunt minus quod officia voluptate eius placeat aliquam, assumenda sit. Similique voluptates quasi consequatur error ipsum ea, totam debitis obcaecati inventore perferendis. Sed, amet! Consequatur asperiores rem itaque alias incidunt laboriosam, nam sunt officiis magni ipsum quasi adipisci iure consectetur ducimus dolore error quod temporibus maiores iusto velit. Rem vel perspiciatis voluptatum qui dolore at eaque ab veniam sunt.</p>   
+         </section>
+         <!-- HighlightJS Code snippet for solid alert  -->
+         <pre>
+            <code>
+               <p class="txt-center">Your Content</p>
+               <p class="txt-left">Your Content</p>
+               <p class="txt-right">Your Content</p>
+            </code>
+        </pre>
     </main>
+
+    <!-- CTA Footer  -->
     <footer class="cta-footer flex">
         <div class="footer-items">
             <span class="material-icons md-24">
@@ -151,10 +297,10 @@
                     arrow_back_ios
                 </span>
             </span>
-            <a href="./color-page.html">Colors</a>
+            <a href="../index.html">Home</a>
         </div>
         <div class="footer-items">
-            <a href="./way-forward-page.html">Way Forward</a>
+            <a href="./color-page.html">Colors</a>
             <span class="material-icons md-24">
                 <span class="material-icons-outlined">
                     arrow_forward_ios
@@ -162,5 +308,15 @@
             </span>
         </div>
     </footer>
+    <script
+			src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+			integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+	></script>
+	<script>
+		hljs.highlightAll();
+    </script>
+	<script src="../js/codeblocks.js"></script>
 </body>
 </html>
