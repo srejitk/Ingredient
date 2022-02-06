@@ -1,0 +1,16 @@
+.ratings{
+    display: flex;  
+}
+
+.star{
+    font-size: var(--fs-lg);
+    cursor: pointer;
+}
+.selected{
+    color: gold;
+}
+
+.star:hover{
+    color: gold;
+    
+}
