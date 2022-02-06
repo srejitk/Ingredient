@@ -13,17 +13,20 @@
 }
 
 .horizontal-card{
-    display: flex;
     max-width: 40rem;
 }
 
-.horizontal-card>.card-image{
+/* .horizontal-card>.card-image{
     max-width: 200px;
-}
+} */
 
 .card-image{
     background-color: var(--background-night-pastel);
     border-radius: var(--radius-md);
+}
+
+.overlay-container{
+    position: relative;
 }
 
 .favourite,
@@ -46,9 +49,12 @@
 
 .text-overlay{
     position: absolute;
-    top: 55%;
-    left: 10%;
+    bottom: 1rem;
+    left: 2rem;
+    padding: var(--space-xs);
+    right: 2rem;
     color: var(--background-day);
+    background-color: var(--secondary-opaque);
 }
 
 .card-price-rating,
