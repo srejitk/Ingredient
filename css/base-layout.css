@@ -20,36 +20,6 @@
     grid-area: side-nav;
 }
 
-/* Top Navigation Bar  */
-.top-nav{
-    grid-area: top-nav;
-    margin-right: var(--space-lg);
-}
-
-.brand-logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: var(--fs-lg);
-}
-
-.brand-img{
-    height: 2rem;
-    width: 2rem;
-    margin-right: 1rem;
-}
-
-.nav-links{
-    color: var(--primary-font);
-    text-align: end;
-}
-
-.nav-item{
-    margin-left: var(--space-lg);
-}
-/* Top-Navigation ends  */
-
-
 /* Sidebar Starts  */
 .side-nav{
     padding: var(--space-sm) var(--space-lg);
