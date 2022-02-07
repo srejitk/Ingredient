@@ -215,10 +215,6 @@
     align-items: center;
 }
 
-.grid{
-    display: grid;
-}
-
 .hide{
     display: none;
 }
