@@ -1,0 +1,25 @@
+.color-pal{
+    height: 3rem;
+    width: 8rem;
+    color: var(--background-day);
+}
+
+.one{
+    background-color: var(--primary-light);
+}
+
+.two{
+    background-color: var(--primary);
+}
+
+.three{
+    background-color: var(--secondary);
+}
+
+.four{
+    background-color: var(--secondary-dark);
+}
+
+.five{
+    background-color: var(--accent);
+}
