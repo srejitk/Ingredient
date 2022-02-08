@@ -81,6 +81,9 @@
     padding: var(--space-md) var(--space-lg);
 }
 
+p{
+    color: var(--secondary-font);
+}
 
 @media  only screen and  (max-width: 780px) {
     .holy-grail-layout{
