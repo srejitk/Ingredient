@@ -5,3 +5,53 @@
 
 /* Importing the file where all component CSS rendezvous  */
 @import url(./css/main.css);
+
+.hero{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.hero-left{
+    padding: var(--space-lg);
+}
+
+.hero h1{
+    padding-top: var(--space-lg);
+    font-size: 6rem;
+}
+
+.hero-cta{
+    gap: var(--space-md);
+}
+
+.hero-cta a{
+    width: 15rem;
+    height: 4rem;
+}
+
+@media  only screen and  (max-width: 1080px){
+    .hero{
+        display: flex;
+        flex-direction: vertical;
+    }
+    .hero h1{
+        padding-top: var(--space-md);
+        font-size: 4rem;
+    }
+    .hero h2{
+        font-size: 2rem;
+    }
+    .hero-left{
+        width: 100%;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    .hero-cta{
+        flex-direction: column;
+    }
+    .hero-right{
+        display: none;
+    }
+    
+}
