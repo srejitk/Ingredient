@@ -55,6 +55,12 @@
     padding: var(--space-xs) 0;
 }
 
+.sub-list-items:hover{
+    background-color: var(--primary-light);
+    color: var(--background-day);
+    border-radius: var(--radius-sm);
+}
+
 .sub-list-items span{
     margin-right: var(--space-sm);
 }
