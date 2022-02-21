@@ -12,7 +12,7 @@ In order to introduce Ingredient to your project, Copy the link given below and 
 ## Alternative
 Add the following import to your CSS file at the top before all other CSS file imports.
 
-    @import url("https://ingredient.netlify.app/css/main.cs");
+    @import url("https://ingredient.netlify.app/css/main.css");
 ## Directory
 Now that you've imported the library to your project, you'll need some help from us to get yourself going. Fret not. We at Ingredients have put together a good documentation site for you to refer to and even copy the boiler plate code to use our components. You can always override and build upon the base components or utility class that we provide.
 Visit the below link to refer to the documentation site of Ingredients:
